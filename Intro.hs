@@ -1,3 +1,5 @@
+module Intro where
+
 fib :: Integer -> Integer
 -- v body (expression)
 fib 0 = 1
