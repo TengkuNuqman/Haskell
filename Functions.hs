@@ -40,9 +40,9 @@ STRICT EVALUATION (by value)
 fact :: Integer -> Integer
 fact 1 = 1
 fact n
-	| n == 1    = 1
-    | n > 1     = n * fact (n-1)        -- "|" are guards       <- pattern matching
-    | otherwise = undefined
+ | n == 1    = 1
+ | n > 1     = n * fact (n-1)        -- "|" are guards       <- pattern matching
+ | otherwise = undefined
 
 {- 
 fact (0+1) = fact 1
